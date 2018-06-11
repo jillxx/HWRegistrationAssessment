@@ -19,8 +19,7 @@ function formValidation() {
 			if (validateaddress1(add1)) {
 				if (validateaddress2(add2)) {
 					if (validatecity(city)) {
-						if (validatestate(state)) {
-							alert(state);							
+						if (validatestate(state)) {						
 							if (validatezipcode(zip)) {
 								if (validatecountry(country)) {
 									return true;
