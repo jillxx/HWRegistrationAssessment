@@ -1,5 +1,6 @@
 package com.hw.registration.HWRegistration.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,6 +16,7 @@ import javax.persistence.Table;
 public class Users implements Comparable<Users>{
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="userinfo")
 	private int userid;
 	private String firstname;
 	private String lastname;
