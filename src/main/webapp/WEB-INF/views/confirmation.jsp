@@ -5,12 +5,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
 <title>Confirmation</title>
 </head>
 <body>
-<h2>Thank you ${name}
-<br>
- Your registration is successful.</h2>
+<h2>
 
+${message}</h2>
+<a href = "/"><button>Go Back to registration page</button></a>
 </body>
 </html>

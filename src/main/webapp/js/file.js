@@ -1,5 +1,5 @@
 /**
- * 
+ * @author Jill XU
  */
 
 function formValidation() {
@@ -23,7 +23,7 @@ function formValidation() {
 							alert(state);							
 							if (validatezipcode(zip)) {
 								if (validatecountry(country)) {
-
+									return true;
 								}
 							}
 						}
@@ -38,7 +38,6 @@ function formValidation() {
 function validatefirstname(fname) {
 
 	if (/^[A-Za-z\s]+$/.test(fname)) {
-		
 		return true;
 	} else {
 		alert('Name can have alphabet characters only');

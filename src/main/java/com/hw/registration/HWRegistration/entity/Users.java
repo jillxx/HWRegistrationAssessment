@@ -6,6 +6,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * @author Jill Xu
+ *
+ */
 @Entity
 @Table(name="userinfo")
 public class Users implements Comparable<Users>{

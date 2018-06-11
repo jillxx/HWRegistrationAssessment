@@ -12,7 +12,7 @@
 
 	<h1 style="color:#3399ff;">Please fill the form to register!</h1>
 	<br>
-	<form action="register" onSubmit="return formValidation();">
+	<form action="register" method="post" onSubmit="return formValidation();">
 		<fieldset>
 			<legend>Registration From:</legend>
 			<table>
@@ -22,7 +22,7 @@
 				</tr>
 				<tr>
 					<td>Last Name:</td>
-					<td><input id="lName" type="text" name="lName" placeholder="Last Name" title="Name can have alphabet characters only"pattern ="^[A-Za-z\s]+$" required></td>
+					<td><input id="lName" type="text" name="lName" placeholder="Last Name" title="Name can have alphabet characters only" pattern ="^[A-Za-z\s]+$" required></td>
 				</tr>
 				<tr>
 					<td>Address1:</td>
@@ -99,7 +99,7 @@
 				<tr>
 					<td>Zipcode:</td>
 					<td><input type="text" id= "zip" name="zip" placeholder="##### or #####-####"
-						title="Please enter a 5 or 9 digit Zip Code"
+						title="Please enter a 5 or 9 digit Zip Code" 
 						pattern="^\s*?\d{5}(?:[-\s]\d{4})?\s*?$" required></td>
 				</tr>
 				<tr>
